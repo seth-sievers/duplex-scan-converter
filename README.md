@@ -3,8 +3,8 @@ A simple python script that converts a simplex scan from a scanner into a duplex
 
 ## Purpose
 This script was created since some scanners and scanner-printer combo units do not 
-have good support for duplex scanning of pages. For example, the duplex scan on the 
-Canon G7020 (using the auto document feeder) wants the user to feed a single page, wait for it to scan, and then flip it over and scan the other side. This must be done in order for every page that is to be scanned, defeating
+have good support for bulk duplex scanning of pages. For example, the duplex scan on the 
+Canon G7020 (using the auto document feeder) wants the user to feed a single page, wait for it to scan, and then flip it over and scan the other side. This must be done, in order, for every page that is to be scanned, defeating
 the purpose of the auto document scanner. 
 
 This script fixes this issue. To create a properly ordered pdf from a duplex scan, users follow the below steps.
